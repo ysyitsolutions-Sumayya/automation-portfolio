@@ -2,3 +2,4 @@
 - An API is a waiter: my code asks, and it brings back JSON.
 - response.json() turns the answer into a dictionary.
 - A box can hold another box, so I open them one at a time.
+- If git push says "fetch first", run git pull --no-rebase and then git push again.
