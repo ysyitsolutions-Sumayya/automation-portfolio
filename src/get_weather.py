@@ -4,6 +4,8 @@ URL = "https://api.open-meteo.com/v1/forecast?latitude=25.2&longitude=55.27&curr
 
 def get_weather():
     response = requests.get(URL)
+    if response.status_code != 200:
+        raise Exception(f"Weather service failed with status {response.status_code}")
     data = response.json()
     return {
         "city": "Dubai",
