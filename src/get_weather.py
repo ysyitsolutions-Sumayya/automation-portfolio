@@ -16,5 +16,6 @@ def get_weather():
 def make_report(weather):
     return f"In {weather['city']} it is {weather['temperature']} °C, with wind at {weather['wind']} km/h."
 
-weather = get_weather()
-print(make_report(weather))
+if __name__ == "__main__":
+    weather = get_weather()
+    print(make_report(weather))
