@@ -1,0 +1,4 @@
+- A dictionary is a box with labels.
+- An API is a waiter: my code asks, and it brings back JSON.
+- response.json() turns the answer into a dictionary.
+- A box can hold another box, so I open them one at a time.
